@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Products Detail - Harsh Lighting</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+<body>
+    
+    
+      <div class="container">
+          <div class="navbar">
+        <div class="logo"> 
+		<img src="images/harsh.jpg" width="100" height="90"/>
+         </div>  
+		   <nav>
+               <ul id="MenuItems">
+			       <li><a href="index.html">Home</a></li>
+			       <li><a href="Product.html">Product</a></li>
+			       <li><a href="">Contact Us</a></li>
+			       <li><a href="">About Us</a></li>
+			       <li><a href="">Account</a></li>
+               </ul>       
+            </nav> 
+              <img src="images/locow.jpg" width="30px" height="30px">
+              <img src="images/menu.jpg" class="menu-icon" onclick="menutoggle()">
+		</div>
+    </div>	
+<!-----Singal Product Detail------>
+<div class="single-product">  
+ <div class="small-container">
+   <div class="row">
+     <div class="col-2">
+       <img src="images/p17.jpg" width="250" height="780">
+     </div>
+     <div class="col-2">
+       <p>Home/Light</p>
+         <h1>Circular Hanging-Lamp</h1>
+         <h3>3000Rs</h3>
+         <h4>Quantity</h4>
+         <input type="number" value="1">
+         <a href="" class="btn">Add To Cart</a>
+         <h3>Product Detail <i class="fa fa-indent"></i></h3>
+         <br>
+         <p>This is a very classy looking decoration light.
+         And Don't worry it very durable and strong.
+         So,you can be worry free and purchase it.</p>
+     </div>   
+   </div>   
+ </div>   
+</div>      
+ <div class="small-container">
+  <div class="row row-2">
+   <h2>Related Products</h2>
+   <p>View More</p>      
+  </div>   
+ </div>   
+    
+    
+    
+    
+    
+ <div class="small-container">
+      <div class="row">
+       <div class="col-4">
+       <img src="images/p6.jpg">
+           <h4>Cubical Wall-Lamp</h4>
+           <div class="rating">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>   
+             <i class="fa fa-star-o"></i>   
+           </div>
+           <p>2500Rs</p>
+       </div>
+       <div class="col-4">
+       <img src="images/p16.jpg">
+           <h4>Classy Hanging-Lamp</h4>
+           <div class="rating">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>   
+             <i class="fa fa-star"></i>   
+           </div>
+           <p>3500Rs</p>
+       </div>
+       <div class="col-4">
+       <img src="images/offer.jpg">
+           <h4>Mashal Wall-Lamp</h4>
+           <div class="rating">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star-half-o"></i>   
+             <i class="fa fa-star-o"></i>   
+           </div>
+           <p>2500Rs</p>
+       </div>
+       <div class="col-4">
+       <img src="images/p18.jpg">
+           <h4>Flower Wall-Lamp</h4>
+           <div class="rating">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>   
+             <i class="fa fa-star-half-o"></i>   
+           </div>
+           <p>2000Rs</p>
+       </div>     
+     </div>
+    </div>
+    <!-----footer---->
+    <div class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="footer-col-1">
+        <h3>Download Our App</h3> 
+           <p>Download app for free avilable for android and ios both.</p>
+       </div>
+          <div class="footer-col-2">
+        <img src="images/harsh.jpg" width="140px" height="140px">
+           <p>We belive on Quality Over Quantity</p>
+       </div>
+          <div class="footer-col-3">
+        <h3>Useful Link</h3> 
+           <ul>
+               <li>Coupons</li>
+               <li>Blog Post</li>
+               <li>Return Policiy</li>
+               <li>Join Affiliate</li>
+         </ul>
+       </div>
+            <div class="footer-col-4">
+        <h3>Follow Ous On Social Media</h3> 
+           <ul>
+               <li>Facebook</li>
+               <li>Twitter</li>
+               <li>Intagram</li>
+               <li>YouTube</li>
+         </ul>
+      </div>
+     </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - Harsh Lighting</p>
+    </div>
+    <!---MenuItems---->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight = "0px";
+                
+                function menutoggle(){
+                    if(MenuItems.style.maxHeight == "0px")
+                        {
+                            MenuItems.style.maxHeight = "200px";
+                        }
+                    else
+                        {
+                            MenuItems.style.maxHeight = "0px";
+                        }
+                }
+        </script>
+    
+</body>
+</html>
